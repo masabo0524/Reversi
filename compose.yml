@@ -1,0 +1,13 @@
+services:
+  cpp-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: my-cpp-builder:latest
+    container_name: cpp-builder
+    working_dir: /app
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
+    command: sleep infinity
