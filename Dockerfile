@@ -2,7 +2,11 @@ FROM gcc:15
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    cmake ninja-build && \
+      cmake \
+      ninja-build \
+      gdb \
+      make \
+      pkg-config && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
