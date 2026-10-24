@@ -5,3 +5,5 @@ sudo docker compose up -d --build
 2. Compile C++ project
 sudo docker compose exec cpp-builder cmake -S . -B build -G Ninja
 sudo docker compose exec cpp-builder cmake --build build
+3. Execute application
+sudo docker compose exec cpp-builder cmake ./build/reversi
