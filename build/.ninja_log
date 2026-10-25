@@ -1,5 +1,6 @@
 # ninja log v6
-219	250	1792682069870130667	reversi	99bfb8a64a0c306
-1	219	1792682069652134369	CMakeFiles/reversi.dir/src/main.cpp.o	c5404b96bd0ed4ba
 1	224	1792836273138584990	CMakeFiles/reversi.dir/src/board_setting.cpp.o	b844d3d1fdb44043
+1	219	1792682069652134369	CMakeFiles/reversi.dir/src/main.cpp.o	c5404b96bd0ed4ba
 225	255	1792836273362580297	reversi	e9fb666e88d6c174
+1	279	1792938313475019628	CMakeFiles/reversi.dir/src/board_setting.cpp.o	b844d3d1fdb44043
+279	313	1792938313753017933	reversi	e9fb666e88d6c174
