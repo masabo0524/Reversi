@@ -1,0 +1,60 @@
+.TH "Board" 3 "My C++ Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Board
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBBoard\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint\fP () const"
+.br
+.ti -1c
+.RI "int \fBgetPlayer\fP () const"
+.br
+.ti -1c
+.RI "int \fBgetOpponent\fP () const"
+.br
+.ti -1c
+.RI "void \fBmove\fP (const \fBMove\fP &move)"
+.br
+.ti -1c
+.RI "void \fBundo\fP (\fBMove\fP &\fBmove\fP)"
+.br
+.ti -1c
+.RI "std::optional< \fBMove\fP > \fBcalcFlipped\fP (int y, int x) const"
+.br
+.ti -1c
+.RI "std::vector< \fBMove\fP > \fBgetLegalMoves\fP () const"
+.br
+.in -1c
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Board::Board ()\fC [inline]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "std::optional< \fBMove\fP > Board::calcFlipped (int y, int x) const\fC [inline]\fP"
+
+.SS "std::vector< \fBMove\fP > Board::getLegalMoves () const\fC [inline]\fP"
+
+.SS "int Board::getOpponent () const\fC [inline]\fP"
+
+.SS "int Board::getPlayer () const\fC [inline]\fP"
+
+.SS "void Board::move (const \fBMove\fP & move)\fC [inline]\fP"
+
+.SS "void Board::print () const\fC [inline]\fP"
+
+.SS "void Board::undo (\fBMove\fP & move)\fC [inline]\fP"
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for My C++ Project from the source code\&.

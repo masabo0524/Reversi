@@ -1,3 +1,10 @@
+/**
+ * @file board_setting.cpp
+ * @brief Reversi basic rules and maneuvers
+ * @author Masaaki TAKEDA
+ * @date 20261026
+ */
+
 #include <iostream>
 #include <optional>
 #include <vector>
@@ -207,6 +214,29 @@ public:
       }
     }
     return legalMoves;
+  }
+
+  Move InputMove(const std::vector<Move>& legal Moves)
+  {
+    char c;
+    int n;
+    for(;;)
+    {
+      std::cout << "Input Move";
+
+      std::cin >> c >> n;
+
+      int y = n - 1;
+      int x = c - 'a';
+
+      for(const Move& move: legalMoves)
+      {
+	if(move.y == y && move.x == x)
+	{
+	  return move;
+	}
+      }
+    }
   }
 
 private:

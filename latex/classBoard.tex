@@ -1,0 +1,80 @@
+\doxysection{Board Class Reference}
+\hypertarget{classBoard}{}\label{classBoard}\index{Board@{Board}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classBoard_a9ee491d4fea680cf69b033374a9fdfcb}{Board}} ()
+\item 
+void \mbox{\hyperlink{classBoard_ac6bc45b6b0bee9b5c91a5bd0d9676fb5}{print}} () const
+\item 
+int \mbox{\hyperlink{classBoard_a151e1ebef3833d06f9e2dc31901aa3f5}{get\+Player}} () const
+\item 
+int \mbox{\hyperlink{classBoard_a971e765ac34f3806a935e009d2827fa4}{get\+Opponent}} () const
+\item 
+void \mbox{\hyperlink{classBoard_afae346bb62b385a5f040e6d97382ee25}{move}} (const \mbox{\hyperlink{structMove}{Move}} \&move)
+\item 
+void \mbox{\hyperlink{classBoard_a16f8ad7f97e6e33d429fc6d0880be953}{undo}} (\mbox{\hyperlink{structMove}{Move}} \&\mbox{\hyperlink{classBoard_afae346bb62b385a5f040e6d97382ee25}{move}})
+\item 
+std\+::optional$<$ \mbox{\hyperlink{structMove}{Move}} $>$ \mbox{\hyperlink{classBoard_a730ea2995af9b366b8a232260fdd84d6}{calc\+Flipped}} (int y, int x) const
+\item 
+std\+::vector$<$ \mbox{\hyperlink{structMove}{Move}} $>$ \mbox{\hyperlink{classBoard_a1f61038513d04954f964b40d217fe208}{get\+Legal\+Moves}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classBoard_a9ee491d4fea680cf69b033374a9fdfcb}\label{classBoard_a9ee491d4fea680cf69b033374a9fdfcb} 
+\index{Board@{Board}!Board@{Board}}
+\index{Board@{Board}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{Board()}{Board()}}
+{\footnotesize\ttfamily Board\+::\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classBoard_a730ea2995af9b366b8a232260fdd84d6}\label{classBoard_a730ea2995af9b366b8a232260fdd84d6} 
+\index{Board@{Board}!calcFlipped@{calcFlipped}}
+\index{calcFlipped@{calcFlipped}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{calcFlipped()}{calcFlipped()}}
+{\footnotesize\ttfamily std\+::optional$<$ \mbox{\hyperlink{structMove}{Move}} $>$ Board\+::calc\+Flipped (\begin{DoxyParamCaption}\item[{int}]{y,  }\item[{int}]{x }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classBoard_a1f61038513d04954f964b40d217fe208}\label{classBoard_a1f61038513d04954f964b40d217fe208} 
+\index{Board@{Board}!getLegalMoves@{getLegalMoves}}
+\index{getLegalMoves@{getLegalMoves}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getLegalMoves()}{getLegalMoves()}}
+{\footnotesize\ttfamily std\+::vector$<$ \mbox{\hyperlink{structMove}{Move}} $>$ Board\+::get\+Legal\+Moves (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classBoard_a971e765ac34f3806a935e009d2827fa4}\label{classBoard_a971e765ac34f3806a935e009d2827fa4} 
+\index{Board@{Board}!getOpponent@{getOpponent}}
+\index{getOpponent@{getOpponent}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getOpponent()}{getOpponent()}}
+{\footnotesize\ttfamily int Board\+::get\+Opponent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classBoard_a151e1ebef3833d06f9e2dc31901aa3f5}\label{classBoard_a151e1ebef3833d06f9e2dc31901aa3f5} 
+\index{Board@{Board}!getPlayer@{getPlayer}}
+\index{getPlayer@{getPlayer}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{getPlayer()}{getPlayer()}}
+{\footnotesize\ttfamily int Board\+::get\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classBoard_afae346bb62b385a5f040e6d97382ee25}\label{classBoard_afae346bb62b385a5f040e6d97382ee25} 
+\index{Board@{Board}!move@{move}}
+\index{move@{move}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Board\+::move (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{structMove}{Move}} \&}]{move }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classBoard_ac6bc45b6b0bee9b5c91a5bd0d9676fb5}\label{classBoard_ac6bc45b6b0bee9b5c91a5bd0d9676fb5} 
+\index{Board@{Board}!print@{print}}
+\index{print@{print}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Board\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classBoard_a16f8ad7f97e6e33d429fc6d0880be953}\label{classBoard_a16f8ad7f97e6e33d429fc6d0880be953} 
+\index{Board@{Board}!undo@{undo}}
+\index{undo@{undo}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{undo()}{undo()}}
+{\footnotesize\ttfamily void Board\+::undo (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structMove}{Move}} \&}]{move }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{board__setting_8cpp}{board\+\_\+setting.\+cpp}}\end{DoxyCompactItemize}

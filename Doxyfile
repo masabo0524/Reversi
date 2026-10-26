@@ -1,0 +1,7 @@
+PROJECT_NAME       = "My C++ Project"
+INPUT              = ./src
+RECURSIVE          = YES
+EXTRACT_ALL        = YES
+GENERATE_HTML      = YES
+GENERATE_MAN       = YES
+HAVE_DOT           = YES

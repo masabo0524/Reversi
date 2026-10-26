@@ -1,0 +1,96 @@
+\doxysection{src/board\+\_\+setting.cpp File Reference}
+\hypertarget{board__setting_8cpp}{}\label{board__setting_8cpp}\index{src/board\_setting.cpp@{src/board\_setting.cpp}}
+
+
+Reversi basic rules and maneuvers.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$optional$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for board\+\_\+setting.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{board__setting_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structMove}{Move}}
+\item 
+class \mbox{\hyperlink{classBoard}{Board}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{board__setting_8cpp_a61206859bd8010b3eed56b1df0dfed7c}{In\+Bounds}} (int y, int x)
+\item 
+int \mbox{\hyperlink{board__setting_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+constexpr int \mbox{\hyperlink{board__setting_8cpp_ac1399dc799d5559a9d6a015443b11400}{HW}} = 8
+\item 
+constexpr int \mbox{\hyperlink{board__setting_8cpp_a7f1cd94cf4da32933e8551cb3577e18b}{BLACK}} = 0
+\item 
+constexpr int \mbox{\hyperlink{board__setting_8cpp_afb80b42b42381658a12a57a975ecd0c7}{WHITE}} = 1
+\item 
+constexpr int \mbox{\hyperlink{board__setting_8cpp_aebe00da7c53c51646139738ce751d23e}{EMPTY}} = 2
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Reversi basic rules and maneuvers. 
+
+\begin{DoxyAuthor}{Author}
+Masaaki TAKEDA 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+20261026 
+\end{DoxyDate}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{board__setting_8cpp_a61206859bd8010b3eed56b1df0dfed7c}\label{board__setting_8cpp_a61206859bd8010b3eed56b1df0dfed7c} 
+\index{board\_setting.cpp@{board\_setting.cpp}!InBounds@{InBounds}}
+\index{InBounds@{InBounds}!board\_setting.cpp@{board\_setting.cpp}}
+\doxysubsubsection{\texorpdfstring{InBounds()}{InBounds()}}
+{\footnotesize\ttfamily bool In\+Bounds (\begin{DoxyParamCaption}\item[{int}]{y,  }\item[{int}]{x }\end{DoxyParamCaption})}
+
+\Hypertarget{board__setting_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{board__setting_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{board\_setting.cpp@{board\_setting.cpp}!main@{main}}
+\index{main@{main}!board\_setting.cpp@{board\_setting.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{board__setting_8cpp_a7f1cd94cf4da32933e8551cb3577e18b}\label{board__setting_8cpp_a7f1cd94cf4da32933e8551cb3577e18b} 
+\index{board\_setting.cpp@{board\_setting.cpp}!BLACK@{BLACK}}
+\index{BLACK@{BLACK}!board\_setting.cpp@{board\_setting.cpp}}
+\doxysubsubsection{\texorpdfstring{BLACK}{BLACK}}
+{\footnotesize\ttfamily constexpr int BLACK = 0\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{board__setting_8cpp_aebe00da7c53c51646139738ce751d23e}\label{board__setting_8cpp_aebe00da7c53c51646139738ce751d23e} 
+\index{board\_setting.cpp@{board\_setting.cpp}!EMPTY@{EMPTY}}
+\index{EMPTY@{EMPTY}!board\_setting.cpp@{board\_setting.cpp}}
+\doxysubsubsection{\texorpdfstring{EMPTY}{EMPTY}}
+{\footnotesize\ttfamily constexpr int EMPTY = 2\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{board__setting_8cpp_ac1399dc799d5559a9d6a015443b11400}\label{board__setting_8cpp_ac1399dc799d5559a9d6a015443b11400} 
+\index{board\_setting.cpp@{board\_setting.cpp}!HW@{HW}}
+\index{HW@{HW}!board\_setting.cpp@{board\_setting.cpp}}
+\doxysubsubsection{\texorpdfstring{HW}{HW}}
+{\footnotesize\ttfamily constexpr int HW = 8\hspace{0.3cm}{\ttfamily [constexpr]}}
+
+\Hypertarget{board__setting_8cpp_afb80b42b42381658a12a57a975ecd0c7}\label{board__setting_8cpp_afb80b42b42381658a12a57a975ecd0c7} 
+\index{board\_setting.cpp@{board\_setting.cpp}!WHITE@{WHITE}}
+\index{WHITE@{WHITE}!board\_setting.cpp@{board\_setting.cpp}}
+\doxysubsubsection{\texorpdfstring{WHITE}{WHITE}}
+{\footnotesize\ttfamily constexpr int WHITE = 1\hspace{0.3cm}{\ttfamily [constexpr]}}
+
